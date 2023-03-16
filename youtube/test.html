@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>#TITLE#</title>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="bootstrap-theme.min.css">
+
+    <!-- SCORMY CSS-->
+    <link href="scormy.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container text-center">
+        <div class="section">
+            <h1>#TITLE#</h1>
+        </div>
+
+        <!-- Video player -->
+        <div id="player"></div>
+
+        <div id="buttons" style="display:block">
+            <button id="btnPlayPause" class="btn-default btn-lg" type="button" onclick="togglePlay()" alt="Play"><span
+                    class="glyphicon glyphicon-play"></span></button>
+            <button id="btnSeek" class="btn-default btn-lg" type="button" onclick="seek()"><span
+                    class="glyphicon glyphicon-play-circle"></button>
+            <button id="btnExit" class="btn-danger btn-lg" type="button" onclick="exit()"><span
+                    class="glyphicon glyphicon-off"></button>
+        </div>
+
+        <!-- Error Message -->
+        <div id="errorMessage"></div>
+
+    </div>
+    <!-- API Wrapper -->
+    <script src="APIWrapper.js"></script>
+    <!-- JQuery -->
+    <script src="jquery.min.js"></script>
+    <!-- Boostrap -->
+    <script src="bootstrap.min.js"></script>
+    <!-- Boot Box -->
+    <script src="bootbox.min.js"></script>
+
+    </div>
+</body>
+
+</html>

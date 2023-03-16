@@ -1,0 +1,10 @@
+/*
+Due to an issue with zip compression library used, it was necessary to remove all directories.
+This overwrides the default bootstrap folder structure which expects fonts to be in the fonts folder.
+*/
+
+@font-face {
+    font-family: "Glyphicons Halflings";
+    src: url("glyphicons-halflings-regular.eot");
+    src: url("glyphicons-halflings-regular.eot?#iefix") format("embedded-opentype"), url("glyphicons-halflings-regular.woff2") format("woff2"), url("glyphicons-halflings-regular.woff") format("woff"), url("glyphicons-halflings-regular.ttf") format("truetype"), url("glyphicons-halflings-regular.svg#glyphicons_halflingsregular") format("svg");
+}
