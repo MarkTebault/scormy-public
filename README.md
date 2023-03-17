@@ -8,9 +8,9 @@ This is my first Flutter app and I really appreciate the public information I us
 
 The App copies course templates from the assets bundle into temporary storage on the current device.  It then takes input from the user and updates key properties of the files such as course title and content.  The files are then copied to a folder and compressed into a ZIP archive.
 
-On desktop applications, the file is saved to a local drive.  One mobile devices the file is emailed to a presumably an LMS administrator.  This is due to the complexity in retrieving and sharing files from a mobile device.
+On desktop applications, the file is saved to a local drive.  On mobile devices the course file can be emailed to the LMS administrator.  This is due to the complexity in retrieving and sharing files from a mobile device.
 
-I chose not to release the Android or Linux version basically due to lack of demand and lack of time to test those systems.
+I chose not to release the Android or Linux version due to lack of demand and lack of time to test those systems.
 
 ## Course Templates
 There are two course templates:  youtube and embed.  The files are in a single folder due to an issue with the compression into ZIP.  The folders shown as 0 byte compressed files, which caused the SCORM parsor to complain.  I fixed it by removing all folders.
