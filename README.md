@@ -18,7 +18,7 @@ There are two course templates:  youtube and embed.  The files are in a single f
 I purposely kept this extremely simple.  I will continue to build it and make it more complex over time, so look for updates.
 
 ## Disclaimer
-I attempted to remove all private information.  If you find something that you feel should be private, pleae let me know so I can remove it.
+I attempted to remove all private information.  If you find something that you feel should be private, please let me know so I can remove it.
 
 It is also unlikely the code will complile as is.  You will need to update your system to address any issues due to my removing some key values.
 
